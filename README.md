@@ -24,3 +24,15 @@ As part of this process however, you should look to refactor some of the code in
 Once you have completed your work, send us a link to your public repository.
 
 Good luck!
+
+************** 
+## Refactoring - What's new
+
+* _Withdraw_ and _Deposit_ behaviour introduced in _Account.cs_ 
+* Notifying user responsibility moved to _User.cs_
+* _TransferMoney_ is now essentially _Withdraw_ from _From_ account to _Deposit_ in _To_ account
+* _WithdrawMoney_ _Execute_ method (Required for test) added
+* Unit tests based on mocking repositories added, covering major scenarios of _Account_, _TransferMoney_ and _WithdrawMoney_
+
+# What more could have done? #
+* Perhaps more test scenarios
